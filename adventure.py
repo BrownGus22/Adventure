@@ -59,23 +59,23 @@ choice = input("What do you choose, 1-6")
 if int(choice) == 1:
     roll = random.randrange(0,int(strength))
     if roll > 20:
-        print("The wall broke beneath your unstoppable strength, proving you the victor.")
+        print("The wall broke beneath your unstoppable strength, denting and cracking, proving you the victor.")
         if int(strength) <= 90:
             strength = int(strength) + 10
             print("+10 strength")
     else:
-        print("The wall broke you instead, what a shame.")
+        print("The wall broke you instead, shattering your poor form under its weight, what a shame.")
         exit()
 
 elif int(choice) == 2:
     roll2 = random.randrange(0,int(dexterity))
     if roll2 > 20:
-        print("The wall seemed tiny under your deft hands, proving you the victor.")
+        print("The wall seemed tiny under your deft hands, mounted and easily overcame, proving you the victor.")
         if int(dexterity) <= 90:
             dextreity = int(dexterity) + 10
             print("+10 dexterity")
     else:
-        print("The wall was insurmountable in the face of your shortcomings, what a shame.")
+        print("The wall was too high for you, blocking your path for the rest of time, what a shame.")
         exit()
 
 elif int(choice) == 3:
@@ -86,7 +86,7 @@ elif int(choice) == 3:
             intelligence =  int(intelligence) + 10
             print("+10 intelligence")
     else:
-        print("The wall was suprisingly witty, far too witty for you, what a shame.")
+        print("The wall was suprisingly witty, condemning you to a fate of confusion and embarrassment, what a shame.")
         exit()
 
 elif int(choice) == 4:
@@ -97,7 +97,7 @@ elif int(choice) == 4:
             faith = int(faith) + 10
             print("+10 faith")
     else:
-        print("The wall's pagan ways proved unchangeable, what a shame.")
+        print("The wall's pagan ways proved unchangeable, slowly converting you instead, what a shame.")
         exit()
 
 elif int(choice) == 5:
@@ -108,18 +108,18 @@ elif int(choice) == 5:
             vitality =  int(vitality) + 10
             print("+10 vitality")
     else:
-        print("The wall was shamed by your impatience, what a shame")
+        print("The wall was shamed by your impatience, standing steadfast where you could not, what a shame")
         exit()
 
 elif int(choice) == 6:
     roll6 = random.randrange(0,int(attunement))
     if roll6 > 20 and int(strength) > 20:
-        print("The wall broke under your projected force, an etehreal fist smashing it, proving you the victor.")
+        print("The wall broke under your projected force, an ethereal fist smashing it, proving you the victor.")
         if int(attunement) <= 90:
             attunement =  int(attunement) + 10
             print("+10 attunement")
     elif roll6 > 20 and int(intelligence) > 20:
-        print("The wall was stunned and mystified by your magic, proving you the victor.")
+        print("The wall was broken by your crystal sorceries, spearing it through and clearing the way, proving you the victor.")
         if int(attunement) <= 90:
             attunement =  int(attunement) + 10
             print("+10 attunement")
@@ -145,4 +145,10 @@ skillList()
 
 print("The wall surpassed, your journey continues, for the next challenge draws near.")
 
-print("Your next challenge came, in the form of the unexpected ")
+print("Your next challenge came, in the form of the unexpected bridge, guarded by an immovable guardian, who asked you for a piece of knowledge.")
+print("1. Explain the inticacies of pilates")
+print("2. Explain the intricacies of climbing different architectural styles")
+print("3. Enlighten him to the subtleties of integral calculus and its numerous ties to both differential calculus and algebra, and the numerous ways it can be applied in anyone's life, including his.")
+print("4. Tell him a story from the great holy book, enlightening him to the glories of your lord.")
+print("5. Explain your skin care and dietary routine")
+print("6. Detail the lengthy history of Mortimer the Third, the famed sorcerer responsible for killing a Demon Lord and absorbing its hateful soul.")
